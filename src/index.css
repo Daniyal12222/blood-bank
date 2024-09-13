@@ -1,0 +1,10 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blood{
+    background-image: url('../public/img/blood-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
