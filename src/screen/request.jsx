@@ -36,10 +36,10 @@ function Request() {
         <>
        <Navbar />
             
-        <div className="w-[100%] h-[100vh] p-2 flex flex-col items-center pt-20  ">
+        <div className="w-[100%] h-[100vh] p-2 flex flex-col  overflow-y-auto items-center pt-20  ">
             {doner.map(item => (
                 
-                <div key={item.uid}  className="w-[80%] bg-red-500  border mt-1 cursor-pointer overflow-y-auto  flex justify-between px-5 py-1 rounded">
+                <div key={item.uid}  className="w-[80%] bg-red-500  border mt-1 cursor-pointer  flex justify-between px-5 py-1 rounded">
                     <div className="flex gap-2 bg-red-500">
                     {/* <img width="64" height="64" src={"https://img.icons8.com/nolan/64/user-default.png" }alt="user-default"/> */}
                     <div className="flex flex-col text-lg p-3  text-white gap-2 ">
