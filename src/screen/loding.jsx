@@ -14,7 +14,7 @@ const  Loder =  () => {
         setTimeout(()=>{
 
             if (!uid) {
-              navigate('/login')
+              navigate('/signin')
             }else{
               navigate('/home')
             }
